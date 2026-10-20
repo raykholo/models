@@ -62,6 +62,8 @@ The model's `README.md` records:
   large assemblies, bad tolerances, very fine tessellation, …).
 - **SHA-256** of the model file, so benchmark results can name the exact file they used.
 
+Run `python3 scripts/check.py` before you open the pull request; CI runs the same check on it.
+
 By opening a pull request you confirm that you have the right to release its files and you
 release them under CC0-1.0.
 
