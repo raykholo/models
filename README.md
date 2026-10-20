@@ -1,19 +1,18 @@
 # Tangency Labs benchmark models
 
 Openly licensed CAD and mesh models in open, standard formats, for benchmarking how CAD and CAE
-software imports, tessellates and meshes them. Anyone can use every model here for any purpose,
-under the licence its folder names.
+software imports, tessellates and meshes them. Everything here is released under
+[CC0-1.0](LICENSE): anyone can use, change and share it for any purpose, with no attribution
+required.
 
 ## Only non-proprietary models
 
 Every model in this repository must be free of proprietary rights and restrictions. Before you
 add a model, check all of the following:
 
-- **You have the right to share it.** You made it yourself, or its author released it under an
-  open licence that permits redistribution and modification.
-- **It is openly licensed.** Use [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-  (preferred) or [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Licences with
-  non-commercial (NC) or no-derivatives (ND) terms are not accepted.
+- **You have the right to release it under CC0-1.0.** You made it yourself, or its author
+  already released it under CC0-1.0. Models under any other licence, CC-BY included, are not
+  accepted, because the repository has one licence for every file.
 - **It is not confidential.** No customer, employer or client parts, no parts under NDA, no
   export-controlled designs.
 - **It is not someone else's product or brand.** No copies of commercial products, logos or
@@ -55,13 +54,16 @@ step/
 The model's `README.md` records:
 
 - **Name** and a one-line description.
-- **Author** and **licence** (CC0-1.0 or CC-BY-4.0).
+- **Author**, so others can credit them (CC0 does not require it, but it is good practice).
 - **Made with**: the software and version that wrote the file, and the export settings
   (for example the STEP application protocol or the STL chord tolerance).
 - **Size**: bodies, faces, edges for B-rep files, or triangles and vertices for meshes.
 - **Why it is interesting**: what it stresses (many small faces, tight fillets, thin walls,
   large assemblies, bad tolerances, very fine tessellation, …).
 - **SHA-256** of the model file, so benchmark results can name the exact file they used.
+
+By opening a pull request you confirm that you have the right to release its files and you
+release them under CC0-1.0.
 
 Keep each file under 50 MB; GitHub refuses files over 100 MB. Use folder and file names in lower
 case with hyphens. The same model can appear in several formats, one folder in each, and each
@@ -89,21 +91,13 @@ So that results can be compared, give for each run:
 
 ## Disclaimer
 
-The models, results and other files in this repository are provided "as is", without warranty of
-any kind, express or implied, including warranties of accuracy, fitness for a particular purpose,
-merchantability and non-infringement. They are benchmark test data, not engineering designs:
-nothing here is checked or certified for manufacture, safety or any real-world use.
-
-Tangency Labs and the contributors are not liable for any claim, damage, loss or other liability
-arising from the files or from their use, whether in contract, tort or otherwise. Neither
-Tangency Labs nor any contributor indemnifies, defends or holds harmless anyone who uses,
-modifies or redistributes these files, including against claims that a file infringes someone
-else's rights. You use them at your own risk.
-
-Benchmark results are the submitters' own measurements, published as they were submitted.
-Tangency Labs does not verify or endorse them.
+The files are provided as is, without warranty, liability or indemnity, and Tangency Labs and the
+contributors accept no responsibility for any harmful or unlawful use of them: read
+[DISCLAIMER.md](DISCLAIMER.md). The models are benchmark test data, not engineering designs, and
+benchmark results are the submitters' own measurements, published as submitted and not verified
+or endorsed by Tangency Labs.
 
 ## Licence
 
-Each model is under the licence named in its folder's `README.md`. Everything else in this
-repository (READMEs and templates) is under CC0-1.0.
+Every file in this repository, models included, is released under
+[CC0-1.0](LICENSE) (Creative Commons Zero 1.0 Universal).
