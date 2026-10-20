@@ -87,6 +87,22 @@ So that results can be compared, give for each run:
 - **The times**: the median of at least 3 runs, plus the minimum and maximum. Give peak memory if
   you can measure it.
 
+## Disclaimer
+
+The models, results and other files in this repository are provided "as is", without warranty of
+any kind, express or implied, including warranties of accuracy, fitness for a particular purpose,
+merchantability and non-infringement. They are benchmark test data, not engineering designs:
+nothing here is checked or certified for manufacture, safety or any real-world use.
+
+Tangency Labs and the contributors are not liable for any claim, damage, loss or other liability
+arising from the files or from their use, whether in contract, tort or otherwise. Neither
+Tangency Labs nor any contributor indemnifies, defends or holds harmless anyone who uses,
+modifies or redistributes these files, including against claims that a file infringes someone
+else's rights. You use them at your own risk.
+
+Benchmark results are the submitters' own measurements, published as they were submitted.
+Tangency Labs does not verify or endorse them.
+
 ## Licence
 
 Each model is under the licence named in its folder's `README.md`. Everything else in this
